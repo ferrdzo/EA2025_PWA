@@ -1,0 +1,4 @@
+if (navigator.serviceWorker)
+{
+    console
+}

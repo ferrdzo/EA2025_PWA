@@ -1,0 +1,74 @@
+{
+    "name": "proyectopwa",
+    "short_name":"BCH PWA",
+    "description": "Aplicacion pwa cv de grupo",
+    "display": "standalone",
+    "background_color": "#EBD758",
+    "start_url": "./index.html?utm_source=web_app_manifest",
+    "theme_color": "#EBD758",
+    "orientation": "portrait-primary",
+    "lang":"es-MX",
+    "scope":"./",
+    "icons": [
+        {
+            "src": "pwa/images/favicon(2).png",
+            "sizes": "16x16",
+            "type": "image/jpeg"
+        },
+        {
+            "src": "pwa/images/favicon(5).png",
+            "sizes": "32x32",
+            "type": "image/jpeg"
+        },
+        {
+            "src": "pwa/images/favicon(8).png",
+            "sizes": "64x64",
+            "type": "image/jpeg"
+        },
+        {
+            "src": "pwa/images/favicon(9).png",
+            "sizes": "96x96",
+            "type": "image/jpeg"
+        },
+        {
+            "src": "pwa/images/favicon(1).png",
+            "sizes": "128x128",
+            "type": "image/jpeg"
+        },
+        {
+            "src": "pwa/images/favicon(10).png",
+            "sizes": "144x144",
+            "type": "image/jpeg"
+        },
+        {
+            "src": "pwa/images/favicon(3).png",
+            "sizes": "192x192",
+            "type": "image/jpeg"
+        },
+        {
+            "src": "pwa/images/favicon(11).png",
+            "sizes": "240x240",
+            "type": "image/jpeg"
+        },
+        {
+            "src": "pwa/images/favicon(4).png",
+            "sizes": "256x256",
+            "type": "image/jpeg"
+        },
+        {
+            "src": "pwa/images/favicon(6).png",
+            "sizes": "384x384",
+            "type": "image/jpeg"
+        },
+        {
+            "src": "pwa/images/favicon(7).png",
+            "sizes": "512x512",
+            "type": "image/jpeg"
+        },
+        {
+            "src": "pwa/images/favicon.png",
+            "sizes": "1024x1024",
+            "type": "image/jpeg"
+        }
+    ]
+}

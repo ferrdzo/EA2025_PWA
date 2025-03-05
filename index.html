@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Optimizacion para el móvil -->
+    <meta name="MovileOptimized" content="width"/>
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="mobile-web-app-capable" content="yes"/>
+
+    <!-- Meta etiquetas PWA para Apple -->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <link rel="apple-touch-icon" href="img/favicon.png"/>
+    <link rel="apple-touch-startup-image" href="img/favicon.png"/>
+
+    <script src="/js/main.js"></script>
+
+    <!-- Manifest.json para PWA -->
+    <link rel="manifest" href="/manifest.json">
+
+    <title>Landing Page - CV</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Archivo CSS externo para estilos -->
+</head>
+<body>
+    <!-- TÍTULO PRINCIPAL -->
+    <header class="main-header">
+        <h1 style="color: white;">Recupera el Color del Mundo: Una Aventura Educativa Inolvidable</h1>
+        <p>Un videojuego que transforma el aprendizaje en diversión.</p>
+    </header>
+
+    <!-- HISTÓRICO DE PROYECTOS -->
+    <section class="history">
+        <h2>Sobre Nosotros</h2>
+        <div class="carousel">
+            <div class="carousel-item">
+                <h3>Proyecto</h3>
+                <p>Videojuego educativo de matemáticas, 2023.</p>
+            </div>
+            <div class="carousel-item">
+                <h3>App Educativa</h3>
+                <p>Desarrollo interactivo para primaria, 2022.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- EQUIPO -->
+    <section class="team">
+        <h2>CV</h2>
+        <div class="team-member">
+            <h3>Luis Fernando Rodríguez Olivas</h3>
+            <p><strong>Puesto:</strong> Técnico Superior Universitario en Sistemas</p>
+            <p><strong>Experiencia:</strong></p>
+            <ul>
+                <li>Encargado de cuadrilla en mantenimiento a torres de Telcel (2015 - 2018).</li>
+                <li>Almacenista en Nadro (2018 - Actualidad).</li>
+                <li>Experiencia en atención al cliente y manejo de programas de computadora.</li>
+            </ul>
+            <p><strong>Educación:</strong></p>
+            <ul>
+                <li>Universidad Tecnológica de Chihuahua (Título como Técnico Superior Universitario en Sistemas, 2012 - 2015).</li>
+                <li>Certificación en iCarnegie.</li>
+            </ul>
+            <p><strong>Contacto:</strong> frodriguezolivas@gmail.com | Tel: 6145364831</p>
+        </div>
+    </section>
+
+    <!-- ELEMENTOS VISUALES -->
+    <section class="visual-elements">
+        <h2>Explora Nuestro Mundo</h2>
+        <div class="media">
+            <img src="/images/gameplay.png" alt="Gameplay del juego" />
+            <video controls>
+                <source src="videos/trailer.mp4" type="video/mp4" />
+                Tu navegador no soporta la reproducción de video.
+            </video>
+        </div>
+    </section>
+
+    <!-- LLAMADA A LA ACCIÓN -->
+    <section class="cta">
+        <button onclick="window.location.href='download.html'">Descubre más</button>
+    </section>
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <section class="contact">
+        <h2>¡Contáctanos!</h2>
+        <form action="mailto:frodriguezolivas@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </section>
+
+    <!-- TEXTO EFECTIVO -->
+    <footer class="footer">
+        <p>El conocimiento es el arma más poderosa. Únete a esta aventura educativa que transformará tu aprendizaje. Juega, aprende y devuelve la luz al mundo.</p>
+    </footer>
+</body>
+</html>
